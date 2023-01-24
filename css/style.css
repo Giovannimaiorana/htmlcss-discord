@@ -232,4 +232,28 @@ li,a{
 #ready{
     text-align: center;
     font-size: 25px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 30px;
 }
+.star{
+    width: 500px;
+    margin: 0 auto;
+}
+   #download{
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    border: none; 
+    background-color: rgb(114, 137, 218);
+   }
+   #download a {
+    color: white;
+    font-size: 17px;
+    padding-right: 12px;
+   }
+   .buttondownload{
+    margin: auto;
+    width: 200px;
+   }
