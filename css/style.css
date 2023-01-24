@@ -1,0 +1,187 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+                                                                                                                        /*REGOLE DI DEBUG*/
+                                                                                                                        .top-header{
+                                                                                                                            background-color: black;
+                                                                                                                        }
+                                                                                                                        .container1{
+                                                                                                                            background-color: blue;
+                                                                                                                        }
+                                                                                                                        .content-one{
+                                                                                                                            background-color: rosybrown;
+                                                                                                                           border: 1px solid white;
+                                                                                                                       }   
+                                                                                                                       .container2{
+                                                                                                                        background-color: lightgray;
+                                                                                                                       } 
+                                                                                                                       .container3{
+                                                                                                                        background-color: black;
+                                                                                                                       }
+                                                                                                                       .container4{
+                                                                                                                        background-color: brown;
+                                                                                                                       }
+                                                                                                                       .container5{
+                                                                                                                        background-color: white;
+                                                                                                                       } 
+                                                                                                                       .content-five{
+                                                                                                                        background-color: green;
+                                                                                                                        border: 1px solid black;
+                                                                                                                       }
+                                                                                                                       .container6{
+                                                                                                                        background-color: lightgray;
+                                                                                                                       }
+                                                                                                                       .content-six{
+                                                                                                                        background-color: aqua;
+                                                                                                                       }
+
+.top-header{
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    background-color: rgb(37, 94, 233);
+}
+.FlexHeader{
+    display: flex;
+    width: 1000px;
+   
+    margin: 0 auto;
+}
+.logo{
+    width:250px;
+    align-items: center;
+    flex-direction: row; 
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li,a{
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.link{
+    width: 500px;
+    padding-top: 20px;
+}
+.login{
+    width: 250px;
+    padding-left: 100px;
+    align-items: center;
+}
+#button-login{
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+}
+.logoimg{
+    padding-left: 10px;  
+}
+.container1{
+    background-image:;
+}
+.container1, .container2, .container3, .container4, .container5{
+    width: 100%;
+    height: 500px;
+    padding-top: 80px; 
+} 
+.content-one{
+    width: 700px;
+    height: 300px;
+    margin: 0 auto; 
+}  
+.content-two, .content-three, .content-four, .content-six{
+    display: flex;
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.content-photo2, .content-photo3, .content-photo4{
+    width: calc(60%);
+    height: 100%;
+    background-color: lightblue;
+    border: 1px solid white 
+    ;
+}
+.content-text2, .content-text3, .content-text4{
+    width: calc(40%);
+    height: 100%;
+    background-color: lightpink;
+    border: 1px solid white;
+} 
+.content-three{
+    flex-direction: row-reverse;
+}
+.container5{
+    
+    width: 100%;
+    height: 800px;
+    padding-top: 50px;      
+}
+.content-five{
+    height: 700px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.container6{
+    width: 100%;
+    height: 500px;
+    padding-top: 10px;   
+}
+.content-six{
+    display: flex;
+    height: 450px;
+    width: 1000px;
+    margin: 0 auto; 
+}
+.col1{
+    height: 450px;
+    background-color: pink;
+    width: calc(38%);
+}
+.col2{
+    height: 450px;
+    background-color: blue;
+    width: calc(17%);  
+    border: 1px solid black;
+}
+.bottomfooter{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+}
+.flexfooter{
+    background-color: blue;
+    display: flex;
+    width: 1000px;
+    height:70px;
+    margin: 0 auto;
+    border: 1px solid white;
+    justify-content: space-between;
+    align-items: center;
+} 
+.logofooter{
+    border: 1px solid white;
+    flex-direction: row;
+    align-items: center;
+    background-color: azure;
+    height: 20px;
+    width: 50px;
+    padding-left: 7px;
+    
+}
+.buttonfooter{
+    border: 1px solid white;
+    flex-direction: row;
+    align-items: center;
+    background-color: azure;
+    height: 20px;
+    width: 50px;
+}
+
+
